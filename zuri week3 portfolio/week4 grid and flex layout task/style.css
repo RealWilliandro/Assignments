@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+      padding:0;
+      box-sizing: border-box;
+    
+    }
+    
+    
+    
+    
+    
+    body{
+      background-color: hsl(0, 0%, 95%);
+    
+    }
+    
+    main{
+      position: relative;
+      left: 20%;
+      top: 30%;
+      height: 600px;
+      width: 1040px;
+      background-color:hsl(0, 0%, 95%);
+      display: Flex;
+      justify-content: center;
+      text-align: left;
+      margin-top: 4%;
+      padding-top: 3%;
+      
+      
+    
+    }
+    h3{
+    font-size: 40px;
+      color: hsl(0, 0%, 95%);
+    
+    font-family: 'Big Shoulders Display', cursive;
+      padding-top: 15%;
+      padding-left: 5%;
+    }
+
+    p{
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15;
+    
+      line-height: 30px;
+      color: hsla(0, 0%, 100%, 0.75);
+        margin-left: 5%;
+      margin-top: 5%;
+    }
+    .sedans, .suvs, .luxury{
+      padding-top: 5%;
+      padding-left: 2%;
+    
+    }
+    .sedans{
+        
+      border-radius: 15px 0 0 15px;
+      width: 300px;
+      height:   500px;
+      background-color: hsl(31, 77%, 52%);
+    }
+    
+    .suvs{
+      
+      width: 300px;
+      height: 500px;
+      background-color: hsl(184, 100%, 22%);
+    }
+    
+    .luxury{  
+      border-radius:0 15px 15px 0;
+      width: 300px;
+      height: 500px;
+      background-color: hsl(179, 100%, 13%);
+    }
+    
+    button{
+      margin-left: 5%;
+      background-color: hsl(0, 0%, 95%);
+      margin-top: 20%;
+      height: 50px;
+      width: 200px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+    
+    
+    .sedansbtn{
+      
+      color: hsl(31, 77%, 52%);
+     
+    }
+    .sedansbtn:hover{
+      background-color: hsl(31, 77%, 52%);
+      color: white;
+     border: 1px solid white;
+    }
+    
+    .suvsbtn{
+      color: hsl(184, 100%, 22%);
+    }
+    
+    .suvsbtn:hover{
+        background-color: hsl(184, 100%, 22%);
+      color: white;
+     border: 1px solid white;
+    }
+    
+    .luxurybtn{
+      color: hsl(179, 100%, 13%);
+    }
+    
+    .luxurybtn:hover{
+      background-color: hsl(179, 100%, 13%);
+      color: white;
+      border: 1px solid white;
+    }
+    
+    a{
+     text-decoration: none; 
+    }
+    
+    img{
+     padding-left: 20px;
+      
+    }
+
+
+    @media screen and (max-width: 375px) {
+  main{
+      display: grid;
+      width: 100%;
+      height: 100%;
+      }
+    }
+
+    @media screen and (min-width: 1040px) {
+      main{
+      
+          width: 100%;
+          }
+        }
